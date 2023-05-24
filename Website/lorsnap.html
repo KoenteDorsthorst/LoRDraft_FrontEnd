@@ -28,11 +28,20 @@
   var image = document.getElementById("image");
 
   function changeImage() {
-    currentIndex++;
 
-    if (currentIndex >= images.length) {
-      currentIndex = 0;
+
+    //Make sure the new image is not the same as the previous
+    indexIsNew = false;
+    while (!indexIsNew) {
+
+      var newIndex = Math.floor(Math.random() * images.length);
+      if(newIndex != currentIndex){
+        currentIndex = newIndex;
+        indexIsNew = true;
+
+      }
     }
+
 
     image.src = images[currentIndex];
     image.style.display = "block";
