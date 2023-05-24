@@ -1,50 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Image Display</title>
-  <style>
-    img {
-      display: none;
-      max-width: 300px;
-      max-height: 300px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>LoR Draft</title>
 </head>
+
 <body>
-<h1>LoR Snap Landmarks</h1>
+<header>
+  <div class="navbar">
+    <div class="logo">
+      <img src="titlelogosm.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/">LoR Draft</a>
+      <a href="/">LoR Snap</a>
+      <a href="/">Tournaments</a>
+      <a href="/">Discord</a>
+    </nav>
+  </div>
+</header>
+<div class="lorsnap">
+  <section class="main-content">
+    <div class="introduction">
+      <h1>WELCOME TO LOR SNAP</h1>
+      <p>Every landmark gives the game an unique twist!</p>
+    </div>
+    <button>SHOW LOCATIONS</button>
 
-<button onclick="changeImage()">LOR SNAP!</button>
-
-<img id="image" src="" alt="Displayed Image">
-
-<script>
-  var images = [
-    "lorsnapimages/25.png",
-    "lorsnapimages/34.png",
-    "lorsnapimages/36.png"
-  ];
-
-  var currentIndex = 0;
-  var image = document.getElementById("image");
-
-  function changeImage() {
+  </section>
+</div>
 
 
-    //Make sure the new image is not the same as the previous
-    indexIsNew = false;
-    while (!indexIsNew) {
-
-      var newIndex = Math.floor(Math.random() * images.length);
-      if(newIndex !== currentIndex){
-        currentIndex = newIndex;
-        indexIsNew = true;
-
-      }
-    }
-
-    image.src = images[currentIndex];
-    image.style.display = "block";
-  }
-</script>
 </body>
+
 </html>

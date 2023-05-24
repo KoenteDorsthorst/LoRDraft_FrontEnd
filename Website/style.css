@@ -97,6 +97,10 @@ nav {
     background-image: url('walls/wall4.jpg');
 }
 
+.lorsnap {
+    background-image: url("walls/lorsnapwall.png");
+}
+
 .discord .main-content{
     margin: 0 30%;
 

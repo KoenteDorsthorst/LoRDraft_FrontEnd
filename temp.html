@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Display</title>
+  <style>
+    img {
+      display: none;
+      max-width: 300px;
+      max-height: 300px;
+    }
+  </style>
+</head>
+<body>
+<h1>LoR Snap Landmarks</h1>
+
+<button onclick="changeImage()">LOR SNAP!</button>
+
+<img id="image" src="" alt="Displayed Image">
+
+<script>
+  var images = [
+    "lorsnapimages/25.png",
+    "lorsnapimages/34.png",
+    "lorsnapimages/36.png"
+  ];
+
+  var currentIndex = 0;
+  var image = document.getElementById("image");
+
+  function changeImage() {
+
+
+    //Make sure the new image is not the same as the previous
+    indexIsNew = false;
+    while (!indexIsNew) {
+
+      var newIndex = Math.floor(Math.random() * images.length);
+      if(newIndex !== currentIndex){
+        currentIndex = newIndex;
+        indexIsNew = true;
+
+      }
+    }
+
+    image.src = images[currentIndex];
+    image.style.display = "block";
+  }
+</script>
+</body>
+</html>
