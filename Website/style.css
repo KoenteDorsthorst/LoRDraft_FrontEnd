@@ -52,6 +52,7 @@ nav {
     color: azure;
     margin: 0;
 
+    /* Adds extra text behind text to simulate a shadow */
     text-shadow: 
         /* first layer at 1px */
         -1px -1px 0px #000,
@@ -82,23 +83,28 @@ nav {
 }
 
 .index {
-    background-image: url('walls/wall1.jpg');
+    background: url('walls/wall1.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .draft {
-    background-image: url('walls/wall2.jpg');
+    background: url('walls/wall2.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .fourplayerdraft {
-    background-image: url('walls/wall3.jpg');
+    background: url('walls/wall3.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .discord {
-    background-image: url('walls/wall4.jpg');
+    background: url('walls/wall4.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .lorsnap {
-    background-image: url("walls/lorsnapwall.png");
+    background: url("walls/lorsnapwall.png") no-repeat center center;
+    background-size: cover;
 }
 
 .discord .main-content{
