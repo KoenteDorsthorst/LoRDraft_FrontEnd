@@ -98,13 +98,14 @@ nav {
 }
 
 .discord {
-    background: url('walls/wall4.jpg') no-repeat center center;
+    background: url('walls/wall4.jpg') repeat-y center center;
     background-size: cover;
 }
 
 .lorsnap {
-    background: url("walls/lorsnapwall.png") no-repeat center center;
-    background-size: cover;
+    background: url("walls/lorsnapwall.png") repeat-y;
+    height: 120em;
+
 }
 
 .discord .main-content{
