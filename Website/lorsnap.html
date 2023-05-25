@@ -29,12 +29,47 @@
       <h1>WELCOME TO LOR SNAP</h1>
       <p>Every landmark gives the game a unique twist!</p>
     </div>
-    <button onclick="showOverview()">SHOW LOCATIONS</button>
-    <img id="overview" src="snap.jpg" alt="overview" style="visibility: hidden; width: 100%;">
+    <div>
+      <h2>Generate a random landmark!</h2>
+      <img id="image" src="" alt="Displayed Image">
+      <button onclick="changeImage()">LOR SNAP!</button>
+    </div>
 
   </section>
+  <button onclick="showOverview()">SHOW LOCATIONS</button>
+  <img id="overview" src="snap.jpg" alt="overview" style="visibility: hidden; width: 100%;">
 </div>
 <script src="lorsnap.js"></script>
+
+<script>
+  var images = [
+    "lorsnapimages/25.png",
+    "lorsnapimages/34.png",
+    "lorsnapimages/36.png"
+  ];
+
+  var currentIndex = 0;
+  var image = document.getElementById("image");
+
+  function changeImage() {
+
+
+    //Make sure the new image is not the same as the previous
+    indexIsNew = false;
+    while (!indexIsNew) {
+
+      var newIndex = Math.floor(Math.random() * images.length);
+      if(newIndex !== currentIndex){
+        currentIndex = newIndex;
+        indexIsNew = true;
+
+      }
+    }
+
+    image.src = images[currentIndex];
+    image.style.display = "block";
+  }
+</script>
 
 </body>
 
