@@ -83,28 +83,43 @@ nav {
 }
 
 .index {
-    background: url('walls/wall1.jpg') no-repeat center center;
+    background: url('walls/wall1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .draft {
-    background: url('walls/wall2.jpg') no-repeat center center;
+    background: url('walls/wall2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .fourplayerdraft {
-    background: url('walls/wall3.jpg') no-repeat center center;
+    background: url('walls/wall3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .discord {
-    background: url('walls/wall4.jpg') repeat-y center center;
+    background: url('walls/wall4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .lorsnap {
-    background: url("walls/lorsnapwall.png") repeat-y;
-    height: 120em;
+    background: url("walls/lorsnapwall.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
