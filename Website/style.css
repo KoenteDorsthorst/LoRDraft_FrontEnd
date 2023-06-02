@@ -46,9 +46,8 @@ nav {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 90vh;
     text-align: center;
-    padding: 20vh 0;
+    padding: 20vh 0 0 0;
     color: azure;
     margin: 0;
 
@@ -174,4 +173,10 @@ button:hover {
     margin-top: 3rem;
     text-align: center;
     color: azure;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
