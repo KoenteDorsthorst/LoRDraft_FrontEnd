@@ -9,22 +9,21 @@ function showOverview() {
     }
 }
 
-
-var images = [
-    "lorsnapimages/25.png",
-    "lorsnapimages/34.png",
-    "lorsnapimages/36.png"
-];
-
+var images = [];
 var currentIndex = 0;
 var image = document.getElementById("image");
+var imageAmount = 3;
+
+for(i = 0; i<imageAmount; i++){
+    images.push('lorsnapimages/' + (i + 1) + '.png')
+}
 
 window.onload = function(){
+
     changeImage();
 }
 
 function changeImage() {
-
 
     //Make sure the new image is not the same as the previous
     indexIsNew = false;
