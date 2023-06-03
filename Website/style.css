@@ -101,7 +101,7 @@ nav {
 }
 
 .fourplayerdraft {
-    background: url('walls/wall3.jpg') no-repeat center center fixed;
+    background: url('walls/draftlobbywall.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -110,7 +110,7 @@ nav {
 }
 
 .discord {
-    background: url('walls/wall4.jpg') no-repeat center center fixed;
+    background: url('walls/discordwall.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
