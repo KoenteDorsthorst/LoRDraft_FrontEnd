@@ -158,9 +158,9 @@ nav {
 button {
     padding: 1.5rem 5rem;
     font-size: 18px;
-    color: #b9b606;
+    color: #ff900c;
     background: #000000;
-    border: #ffffff;
+    border: #ff900c;
     border-style: solid;
     cursor: pointer;
     border-radius: 40px;
@@ -168,7 +168,7 @@ button {
 }
 
 button:hover {
-    background: #eeee;
+    background: #ff900c;
     color: #000;
     border: #000;
     border-style: solid;
