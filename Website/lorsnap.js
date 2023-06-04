@@ -26,7 +26,7 @@ window.onload = function(){
 function changeImage() {
 
     //Make sure the new image is not the same as the previous
-    indexIsNew = false;
+    let indexIsNew = false;
     while (!indexIsNew) {
 
         var newIndex = Math.floor(Math.random() * images.length);
@@ -38,6 +38,5 @@ function changeImage() {
     }
 
     image.src = images[currentIndex];
-    image.style.display = "block";
 }
 
