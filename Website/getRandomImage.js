@@ -15,6 +15,6 @@
  * @Return  The location of an image.
  */
 function returnRandomImage(directory, fileFormat, imageAmount){
-    const index = Math.floor(Math.random() * imageAmount);
+    const index = Math.ceil(Math.random() * imageAmount);
     return directory + '/' + index + fileFormat;
 }
