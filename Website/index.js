@@ -1,7 +1,7 @@
 var images = [];
 var currentIndex = 0;
 var image = document.getElementById("image");
-var imageAmount = 3;
+var imageAmount = 2;
 
 for(i = 0; i<imageAmount; i++){
     images.push('indeximages/' + (i + 1) + '.png')
