@@ -8,7 +8,6 @@ for(i = 0; i<imageAmount; i++){
 }
 
 window.onload = function(){
-
     changeImage();
 }
 
@@ -22,9 +21,7 @@ function changeImage() {
         if(newIndex !== currentIndex){
             currentIndex = newIndex;
             indexIsNew = true;
-
         }
     }
-
     image.src = images[currentIndex];
 }

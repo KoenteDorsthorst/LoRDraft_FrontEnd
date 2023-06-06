@@ -1,4 +1,3 @@
-
 function showOverview() {
     var image = document.getElementById('overview');
 
@@ -8,7 +7,6 @@ function showOverview() {
         image.style.visibility = 'hidden';
     }
 }
-
 
 window.onload = function(){
     changeImage();
