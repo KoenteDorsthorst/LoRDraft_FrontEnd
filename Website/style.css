@@ -82,50 +82,13 @@ nav {
         -2px -1px 0px #000;
 }
 
-.index {
-    background: url('walls/wall1.jpg') no-repeat center center fixed;
+.wall {
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     min-height: 90vh;
-}
-
-.draft {
-    background: url('walls/draftlobbywall.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 90vh;
-}
-
-.fourplayerdraft {
-    background: url('walls/wall3.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 90vh;
-}
-
-.discord {
-    background: url('walls/discordwall.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 90vh;
-}
-
-.lorsnap {
-    background: url("walls/lorsnapwall.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 90vh;
-
 }
 
 .discord .main-content{
