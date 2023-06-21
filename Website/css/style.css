@@ -6,44 +6,7 @@
 }
 
 
-nav {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0 2rem;
-    background-color: #585858;
-    height: 10vh;
-}
-
-.navbar a {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #000;
-    padding: 0 1.5rem;
-}
-
-.navbar a:hover {
-    color: rgb(100, 100, 100);
-}
-
-
-
-.logo {
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
-}
 
 
 
