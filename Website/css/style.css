@@ -46,10 +46,6 @@
         -2px -1px 0px #000;
 }
 
-.lorsnap-content{
-    padding: 10vh 0 0 0;
-}
-
 .wall {
     background: no-repeat center center fixed;
     -webkit-background-size: cover;

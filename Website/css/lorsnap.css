@@ -1,0 +1,20 @@
+.lorsnap-content{
+    display: flex;
+    justify-content: center;
+    padding: 10vh 0 0 0;
+}
+
+.lorsnap-landmark-image{
+    width: 50%;
+    margin: auto;
+    display: block
+}
+
+.lorsnap-h2{
+    margin-bottom: 20px;
+}
+
+.lorsnap-introduction{
+    margin-right: 10%;
+    max-width: 35%;
+}
